@@ -18,5 +18,5 @@ i=Tsintegrator1D(50,hstep=3.17)
 
 
 t1=time.time()
-print(i.integrate(f,3,10.,use_c=False))
-print(time.time()-t1)
+print((i.integrate(f,3,10.,use_c=False)))
+print((time.time()-t1))

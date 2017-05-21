@@ -12,9 +12,9 @@ i=Tsintegrator3D()
 
 
 t1=time.time()
-print(i.integrate(f,xlim,ylim,zlim))
-print(time.time()-t1)
+print((i.integrate(f,xlim,ylim,zlim)))
+print((time.time()-t1))
 
 t1=time.time()
-print(nquad(f,[xlim,ylim,zlim],opts={'epsabs':1e-6,'epsrel':1e-6}))
-print(time.time()-t1)
+print((nquad(f,[xlim,ylim,zlim],opts={'epsabs':1e-6,'epsrel':1e-6})))
+print((time.time()-t1))
